@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <!-- Liên kết file CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Liên kết font chữ Lato -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background-animation"></div>
+  <div class="login-container">
+    <div class="menu">
+      <a href="index.html" class="active">Login</a>
+    </div>
+    <h1>Register</h1>
+    <form id="register-form">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="gmail">Gmail:</label>
+        <input type="email" id="gmail" name="gmail" required>
+        <small id="emailHelp" class="form-text text-muted">Correct format: example@gmail.com</small>
+      </div>
+      <button type="submit" id="register-btn">Register</button>
+    </form>
+  </div>
+  <footer>
+    <!-- Liên kết file JavaScript -->
+    <script src="script.js"></script>
+  </footer>
+</body>
+</html>
